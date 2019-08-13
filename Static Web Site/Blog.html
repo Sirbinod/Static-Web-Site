@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SARBIN SHRESTHA</title>
+ <link rel="stylesheet" href="css.css">
+
+
+<style type="text/css">
+
+	.displa{
+		display: flex;
+
+	}
+	.blg{
+		flex: 50%;
+		background-color: gray;
+	}
+	#img{
+		flex: 50%;
+		padding: 5px;
+		background-color: blue;
+	}#imgBox{
+		border: 10px solid green;
+		padding: 3px;
+		width: 500px;
+		height: 430px;
+	}
+	
+	
+</style>
+</head>
+
+<body><nav>
+	 <ul>
+      <li><a  href="./index.html">Home</a></li>
+      <li><a  href="./about.html">About Me</a></li>
+      <li><a class="active" href="#">Blog</a></li>
+      <li><a href="Research.html">Research</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+  </ul></nav>
+	<div style="background-color: black">
+	<h1>Blog</h1><br>
+	<div class="displa" >
+		
+	<div class="blg">
+        <p><b>Technology affect in our lives.</b></p>
+		<p>Technology will fine be termed as an increased route to a target that's nonetheless to be improved. Innovation and technology go hand in hand. Technology is all concerning the dynamical of concepts into one thing tangible. Innovation isn't just for those organizations and people WHO area unit artistic, however additionally needs the presence of scientific and technological talent. Technology has no doubt reworked our lives into one thing far better. If we were to actually compare the way we live today and how life was a few years back, we will definitely notice how much technology has transformed our lives.</p>
+		<p>Arguably, the one piece of technology that has been handiest in our lives these days is cell phones that square measure these days thought of a show of civilization. Due to the numerous changes happening within the technological world, the dependency on technology is growing with every passing day. The employment of the net is growing at a really quick rate with every passing day. The net virtually links over 700 million individuals from all corners of the planet. This technology is doubtless state of the art and has served to greatly higher the approach we have a tendency to communicate and conjointly the academic standards. Due to this nice innovation in technology, it's attainable for an individual to induce info on any topic from anyplace at any time. It’s created education simply on the market to every and each person. It’s conjointly created improvisations on such a large amount of ways in which we have a tendency to use to satisfy our wants and meet all expectations. It’s provided America with a lot of easier and quicker ways in which to unravel pressing issues.</p>
+
+	</div>
+
+	<div id="img">
+		<img src="Sets.jpg" id="imgBox">
+
+		<script type="text/javascript">
+			var images = ['Sophia.jpg', 'Data.jpg','ideas_1.png','Sets.jpg','people-in-technology.jpg','touch.jpg','social-media.jpg'];
+			var x = 0;
+
+			// function to change picture
+			
+
+			function changer(){
+				document.getElementById('img').childNodes[1].src = images[x];
+				if(x<6){
+					x=x+1
+				}else{
+					x=0	
+				}
+			setTimeout(changer,2000);
+			}
+			changer();
+		</script>
+        
+
+	</div>
+	</div>
+		<div style="overflow: auto;">
+    <div id="video" >
+		
+    <video width="50%" controls style="float:left; ">
+<source src="Our Digital World.mp4" type="video/mp4">
+</video>
+         
+         <video width="49%" controls style="float: right; border-left: 2px; border-left-style: solid;border-left-color: red">
+<source src="Smartphones.mp4" type="video/mp4">
+		</video></div>
+    </div>
+      <br><br><br>
+ <FOOTER style="margin-bottom: auto; padding-top: 21px; height: 1px;">  
+<hr>
+<div style="background-color: black; width: 100%; text-align: center; color: white ; height: 23px">
+  &copy; 2018 All right and reserved
+
+
+  </div>
+
+		</FOOTER></div>
+    
+</body>
+</html>

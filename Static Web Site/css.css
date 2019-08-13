@@ -1,0 +1,95 @@
+	body {
+    font-family: Arial lato;
+}
+label{
+    font-size: 25px;
+    
+    
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    background: white;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+}
+ nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+  nav li a:hover:not(.active) {
+    background-color: #111;
+}
+nav li a:active{
+    background-color:  #4CAF50
+} 
+.active {
+    background-color: #4CAF50;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: whit;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container {
+    position: absolute;
+    right: 20;
+    margin: 20px;
+    margin-left: 20%;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+.div{
+    padding: 100px;
+    text-align: center;
+    color: black;
+    font-size: 25px
+}
+.div h1{
+    color: black
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    font-size: 40px;
+}
+html, body{
+  height: 100%;
+  margin: 0; 
+}
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+    p{
+      font-family:verdana;
+    }

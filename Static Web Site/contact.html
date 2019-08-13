@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ 
+<title>SARBIN SHRASTHA</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="css.css">
+	<script type"text/javascript" src ="./contact.js"></script>
+<style>
+    
+    
+body {
+      background-image: url(wall.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    input{
+        height: 25px;
+    }
+    textarea{
+        
+        height: 100px;
+    }
+</style>
+ 
+    </head>
+
+<body style="text-align: center;">
+    <nav>
+	 <ul>
+      <li><a  href="./index.html">Home</a></li>
+      <li><a href="./about.html">About Me</a></li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="Research.html">Research</a></li>
+      <li><a  class="active" href="#">Contact</a></li>
+  </ul></nav>
+    <div>
+
+  
+    <h1>Feedback</h1>
+    <div class="conntainer">
+       <form name= "contactForm">
+      <p>
+        <label> First Name: 
+          <input type="text" name="FName" id="FirstName">
+        </label>
+        
+        <label>Last Name: 
+          <input type="text" name="LName" id="LastName">
+        </label>
+      </p>
+      <p>
+         <label>Moble No.: 
+          <input type="text" name="MNo" id="MNo" placeholder="0000000000">
+        </label>
+      </p>
+        <label>
+      <p>E-mail Address: 
+        <input name="Mail" type="text" id="Mail" size="20" maxlength="20" placeholder="example@example.com">
+      </p>
+      </label>
+      <p>
+        <label>
+            <p style="font-size: 25px;">Message: &nbsp;&nbsp;    </p>
+          <textarea name="Comments" id="Comments" cols="45" rows="5" placeholder="Your Message Here...."></textarea>
+        </label>
+      </p>
+      <p>
+        <input type="submit" name="button" id="button" value="Send" onclick="cform()">
+        <label>
+          <input type="reset" name="Reset" id="Reset" value="Reset">
+        </label>
+      </p>
+        </form>
+    
+  </div>
+        <br><br><br><br><br><br>
+ <FOOTER style="margin-bottom: auto; padding-top: 21px; height: 1px;">  
+<hr>
+<div style="background-color: black; width: 100%; text-align: center; color: white ; height: 23px">
+  &copy; 2018 All right and reserved
+
+
+  </div>
+
+        </FOOTER>
+    </div>
+
+</body>
+</html>
